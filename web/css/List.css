@@ -1,0 +1,90 @@
+@import "bg.css";
+table {
+	margin-top: 10px;
+	font-size: 12px;
+	padding: 20px;
+  	box-shadow: 0 0 3px #999;
+	-moz-box-shadow: 0 0 3px #999;
+	-webkit-box-shadow: 0 0 3px #999;
+	border-collapse: collapse;
+}
+body {
+	font-family: "微软雅黑", fantasy;
+}
+td, th {
+	border: 1px solid #000000;
+}
+tr {
+	background-color: rgba(255,255,255,1);;
+}
+h2{
+	color: snow;
+}
+a:link, a:visited {
+	color: #0670c9;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #fff;
+	background-color: #0670c9;
+	text-decoration: none;
+}
+
+.fonts1 {
+	display: block;
+	text-decoration: none;
+	/*     width: 200px; */
+	/* line-height: 35px; */
+	font-size: 15px;
+	font-family: "Microsoft YaHei", "iconfont", "FontAwesome", "微软雅黑", "黑体", monospace;
+	/*     font-weight: bold; */
+}
+.fonts2{
+	color: #f00;
+	/* font-size: 15px; */
+/* 	font-family: "黑体"; */
+}
+.fonts3{
+font-weight: bold;
+text-align: center;
+}
+.fonts4:link,.fonts4:visited{
+color: #f00;
+}
+.fonts4:hover,.fonts4:active{
+color: #fff;
+}
+.img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -2px;
+}
+.botton {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: #4CAF50;
+	color: white;
+	border: 2px solid #4CAF50;
+}
+.botton:hover {
+	background-color: white;
+	color: black;
+}
+@media screen and (min-width: 1200px) {
+    body {zoom:1.25;}
+}
+/*@media screen and (min-width: 1440px) {
+    body {zoom:1.5;}
+}*/
+/*
+@media screen and (min-width: 1680px) {
+    body {zoom:1.75;}
+}*/

@@ -1,0 +1,46 @@
+@import "bg.css";
+.main{
+  margin-top: 100px;
+  width:960px;
+}
+body {
+    font-family: "微软雅黑", fantasy;
+}
+.message {
+	margin-top: 30px;
+	width: 317px;
+	font-size: 12px;
+	background-color: #faf7f1;
+	padding: 20px;
+	box-shadow: 0 0 8px #999;
+	-moz-box-shadow: 0 0 8px #999;
+	-webkit-box-shadow: 0 0 8px #999;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-bottom: 20px;
+}
+.botton {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+.botton:hover {
+    background-color: white;
+    color: black;
+}
+.title {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 16px;
+}

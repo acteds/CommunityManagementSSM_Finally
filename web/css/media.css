@@ -1,0 +1,25 @@
+ @media screen and (min-width: 450px) {
+    body {zoom:1.25;}
+}
+@media screen and (min-width: 540px) {
+    body {zoom:1.5;}
+}
+@media screen and (min-width: 630px) {
+    body {zoom:1.75;}
+}
+/*@media screen and (min-width: 720px) {
+    body {zoom:2;}
+}*/
+/* @media screen and (min-width: 810px) {
+    body {zoom:2.25;}
+}
+@media screen and (min-width: 900px) {
+    body {zoom:2.5;}
+}
+ @media screen and (min-width: 990px) {
+    body {zoom:2.75;}
+}
+@media screen and (min-width: 1080px) {
+    body {zoom:3;}
+}*/
+ /*body {zoom:1.5;}*/

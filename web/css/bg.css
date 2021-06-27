@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    opacity: 0;
+    animation: page-fade-in 0.1s forwards;
+}
+@keyframes page-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
